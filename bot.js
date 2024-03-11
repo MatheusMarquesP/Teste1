@@ -45,7 +45,7 @@ bot.sendMessage(msg.chat.id, "Tchau");
   // Salvar a mensagem em um arquivo .txt
   fs.appendFile('mensagens.txt', msg.text + '\n', (err) => {
       if (err) throw err;
-      console.log('Mensagem salva no arquivo.');
+      console.log('Mensagem salva no arquivo');
   });
 });
 
