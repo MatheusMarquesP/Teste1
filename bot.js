@@ -21,7 +21,7 @@ bot.onText(/\/echo (.+)/, (msg, match) => {
 // Ouça qualquer tipo de mensagem. Existem diferentes tipos de
 // mensagens.
 bot.onText(/\/start/, (msg) => {
-    bot.sendMessage(msg.chat.id, "Welcome");
+    bot.sendMessage(msg.chat.id, "Bem Vindo");
     });
 
 bot.onText(/\/sendpic/, (msg) => {
